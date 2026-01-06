@@ -1,0 +1,98 @@
+/* ===== GLOBAL ===== */
+.ambience-home {
+  background: #f8f9fb;
+  min-height: 100vh;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* ===== HEADER ===== */
+.ambience-header {
+  background: linear-gradient(135deg, #002347, #00172f);
+  color: white;
+  padding: 35px 20px;
+  text-align: center;
+}
+
+.ambience-header img {
+  height: 70px;
+  margin-bottom: 10px;
+}
+
+.ambience-header h1 {
+  margin: 5px 0;
+  font-size: 28px;
+}
+
+.ambience-header p {
+  color: #fdc632;
+  font-size: 15px;
+}
+
+/* ===== PROJECT GRID ===== */
+.project-section {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+/* ===== CARD ===== */
+.project-card {
+  background: white;
+  border-radius: 18px;
+  padding: 25px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+  border-top: 5px solid #fdc632;
+  transition: 0.35s;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+}
+
+/* ===== CARD CONTENT ===== */
+.card-top {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.level {
+  background: #002347;
+  color: #fdc632;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.project-card h3 {
+  margin: 15px 0 8px;
+  color: #002347;
+}
+
+.project-card p {
+  color: #555;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* ===== BUTTON ===== */
+.view-btn {
+  margin-top: 20px;
+  background: #fdc632;
+  color: #002347;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+
+.view-btn:hover {
+  background: #002347;
+  color: #fdc632;
+}

@@ -1,0 +1,76 @@
+.theme-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", sans-serif;
+  transition: 0.4s;
+}
+
+/* LIGHT */
+.theme-page.light {
+  background: #f8fafc;
+  color: #002347;
+}
+
+/* DARK */
+.theme-page.dark {
+  background: #0f172a;
+  color: #e5e7eb;
+}
+
+/* CARD */
+.theme-card {
+  width: 420px;
+  padding: 30px;
+  border-radius: 18px;
+  box-shadow: 0 20px 45px rgba(0,0,0,0.15);
+  background: inherit;
+  border-top: 6px solid #fdc632;
+}
+
+/* HEADER */
+.theme-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.theme-header h1 {
+  margin: 0;
+}
+
+/* BUTTON */
+.toggle-btn {
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  background: #fdc632;
+  color: #002347;
+}
+
+.theme-page.dark .toggle-btn {
+  background: #eab308;
+  color: #0f172a;
+}
+
+/* CONTENT */
+.subtitle {
+  margin: 15px 0;
+  font-size: 14px;
+  color: inherit;
+}
+
+.content-box {
+  background: rgba(255,255,255,0.15);
+  padding: 15px;
+  border-radius: 12px;
+  font-size: 14px;
+}
+
+.theme-page.dark .content-box {
+  background: rgba(0,0,0,0.3);
+}

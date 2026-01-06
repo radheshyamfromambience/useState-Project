@@ -1,0 +1,71 @@
+.counter-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f8fafc, #eef2f7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.counter-card {
+  background: #ffffff;
+  padding: 35px;
+  width: 360px;
+  border-radius: 18px;
+  box-shadow: 0 20px 45px rgba(0,0,0,0.1);
+  text-align: center;
+  border-top: 6px solid #fdc632; /* Ambience Yellow */
+}
+
+.counter-card h1 {
+  color: #002347;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  color: #64748b;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+.count-box {
+  font-size: 52px;
+  font-weight: bold;
+  color: #002347;
+  margin-bottom: 25px;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.btn {
+  flex: 1;
+  padding: 12px 0;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.minus {
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+.reset {
+  background: #e0e7ff;
+  color: #1e40af;
+}
+
+.plus {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.btn:hover {
+  opacity: 0.85;
+}
